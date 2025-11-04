@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+  background-color: #fafafa;
+}
+
+h1 {
+  margin-bottom: -10px;
+}
+
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#output {
+  font-family: courier;
+  font-size: 24px;
+  height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}

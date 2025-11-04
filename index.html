@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TFJS Handwriting Classifier</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+</head>
+<body>
+  <h1>TensorFlow.js Handwritten Letter/Number Classifier</h1>
+  <h2>Write capital letters or numbers and click "Classify Writing"</h2>
+
+  <button id="classifyBtn">Classify Writing</button>
+  <canvas id="canvasId" width="500" height="500"></canvas>
+
+  <div id="output"></div>
+
+  <script src="ocr.js"></script>
+</body>
+</html>
